@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        :lang(fa){
+            direction: rtl;
+        }
+        label{
+            text-align: right;
+        }
+        .btn{
+           background-color: #001e57;
+           border: none;
+           color: whitesmoke;
+           padding: 16px 32px;
+           text-align: center;
+           font-size: 16px;
+           margin: 4px 2px;
+           opacity: 0.6;
+           transition: 0.3s;
+           display: inline-block;
+           text-decoration: none;
+           cursor: pointer
+        }
+        input,textarea{
+            border-radius: 10px ;
+            width: 50%;
+            font-family: Impact, Haettenschweiler,
+                 'Arial Narrow Bold', sans-serif;
+
+        }
+        textarea{
+            height: 6em;
+        }
+        body{
+            margin: auto;
+            font-family:Impact, Haettenschweiler,
+                 'Arial Narrow Bold', sans-serif; ;
+                 padding: 2% 10%;
+                 background-color: rgba(4, 118, 248, 0.699);
+        }
+    </style>
+    <title>تماس باما</title>
+</head>
+<body>
+<form action="contact_controller.php" method="post">
+<h1>
+    تماس باما
+</h1>
+<label for="title">عنوان:</label>
+<br>
+<input type="text" name="title" id="title">
+<br>
+<br>
+<label for="email">ایمیل:</label>
+<br>
+<input type="email" name="email" id="email" placeholder="(مثال ABC@gmail.com)">
+<br>
+<br>
+<label for="textBody">متن پیام:</label>
+<br>
+<textarea name="textbody" id="textbody"></textarea>
+<input class="btn" type="submit" value="ارسال">
+</form>
+</body>
+
+</html>

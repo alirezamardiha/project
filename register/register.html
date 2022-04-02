@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>ثبت نام</title>
+    <style>
+         :lang(fa){
+            direction: rtl;
+        }
+        label{
+            text-align: right;
+        }
+        .submit{
+           background-color: #47ff2e;
+           border: none;
+           color: whitesmoke;
+           padding: 16px 32px;
+           text-align: center;
+           font-size: 16px;
+           margin: 4px 2px;
+           opacity: 0.6;
+           transition: 0.3s;
+           display: inline-block;
+           text-decoration: none;
+           cursor: pointer
+        }
+        input{
+            
+            border-radius: 10px ;
+            width: 50%;
+            font-family: Impact, Haettenschweiler,
+                 'Arial Narrow Bold', sans-serif;
+
+        }
+
+        body{
+            margin: auto;
+            font-family:Impact, Haettenschweiler,
+                 'Arial Narrow Bold', sans-serif; ;
+                 padding: 2% 10%;
+                 background-color: #9775AB;
+    </style>
+</head>
+<body>
+<form method="post" action="register.php">
+    <label for="Fname">نام</label>
+    <br>
+    <input type="text" id="Fname" name="Fname">
+    <br>
+    <label for="Lname">نام خانوداگی</label>
+    <br>
+    <input type="text" id="Lname" name="Lname">
+    <br>
+    <label for="phonenumber">شماره تلفن</label>
+    <br>
+    <input type="number" id="phonenumber" name="phonenumber">
+    <br>
+    <label for="email">ایمیل</label>
+    <br>
+    <input type="email" id="email" name="email">
+    <br>
+    <label for="password">رمز عبور</label>
+    <br>
+    <input type="password" id="password" name="password">
+    <br>
+    <input type="reset" id="reset" name="reset">
+    
+    <input type="submit" id="submit" name="submit">
+</form>
+</body>
+</html>
