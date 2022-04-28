@@ -1,0 +1,87 @@
+
+:lang(fa){
+	direction:	rtl;
+	text-align:	right;
+}
+:lang(en){
+	direction:	ltr;
+	text-align:	left;
+}
+
+.card{
+    width:		25%;
+	background:	#E7E0EC;
+    border: none;
+    margin: 8px;
+	border-radius:	12px;
+	overflow:		hidden;
+    font-size: 20px;
+}
+.card-body{
+    padding: 0 16px;
+}
+
+.card-outlined{
+	background:	#FFFBFE;
+    border: 1px solid ;
+    border-radius:	12px;
+    border-color: #79747E ;
+    overflow:		hidden;
+    font-size: 20px;
+    margin: 8px;
+    width:		25%;
+
+
+    
+
+}
+.card-outlined:hover{
+    background:	rgba(28, 27, 31,12%) ;
+    border-color: #FFFBFE ;
+}
+.card-outlined:focus{
+    background:	rgba(28, 27, 31,12%) ;
+    border-color: rgba(28, 27, 31,12%) ;
+}
+.card-outlined:active{
+    background:	rgba(28, 27, 31,38%) ;
+    border-color: #FFFBFE ;
+}
+
+.card-filled{
+	background:	#E7E0EC;
+    border-radius:	12px;
+    overflow:		hidden;
+    font-size: 20px;
+    margin: 8px;
+    width:		100%;
+    display: inline-block;
+
+}
+.card-filled:hover{
+    background:	rgba(28, 27, 31,12%);
+}
+.card-filled:focus{
+    background:	rgba(28, 27, 31,12%);
+}
+.card-filled:active{
+    background:	rgba(28, 27, 31,38%);
+}
+.card-img{
+	width:		100%;
+    border-radius:	12px;
+    padding: 0px;
+    
+}
+
+img{
+	max-width:	100%;
+	max-height:	100%;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 16px;
+    width: 100%;
+    height: 50%;
+   }

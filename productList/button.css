@@ -1,0 +1,162 @@
+.btn
+	{
+		min-width:		64px;	
+		max-width: 		100%;
+		padding:		0px 24px;
+
+		border:			1px solid transparent;
+		border-radius:	20px; 
+		height:			40px;
+		margin:			8px 88px 0px 8px;
+
+		display:		inline-block;
+		text-align:     center;
+		vertical-align:	middle;
+		font-size:		20px;
+		cursor:			pointer;
+		font-weight: 	500 ;
+		
+	}
+.btn i
+	{
+		font-size:		18px;
+	}
+.btn i:first-child
+	{
+		margin: 0 -8px 0 0;
+	}
+.btn i:last-child
+	{
+		margin: 0 0 0 -8px;
+	}
+.btn * 
+	{
+		vertical-align: middle;
+	}
+
+a.btn
+	{
+		text-decoration: none;
+
+	}
+
+
+.btn-text
+{
+color:  #6750A4;
+background: none;
+padding:		0 12px;	
+}
+.btn-outline
+{
+border: 2px solid ;
+border-color: #74767e;
+color:   #6750A4;
+background: none;
+}
+.btn-filled
+{
+background-color: #6750A4;
+color:   #eaddff;
+}
+.btn-filled-tonal
+{
+background-color: #E8DEF8;
+color:   #1E192B;
+}
+
+
+.btn-outline:hover
+{
+outline-color: #79747E;
+background-color: rgba(103, 80, 164,0.12);
+}
+.btn-outline:focus
+{
+
+outline-color: #6750a4;
+color: #6750A4;
+background-color: rgba(103, 80, 164,0.12);
+
+
+}
+.btn-outline:active
+{
+outline-color: #79747E;
+background-color: rgba(103, 80, 164,0.38);
+
+}
+.btn-outline:disabled
+{
+outline-color: rgba(28, 27, 31,0.12);
+color: rgba(28, 27, 31,0.38);
+
+}
+
+
+.btn-text:hover
+{
+background-color: rgba(103, 80, 164,0.12);
+color: #6750A4;
+}
+.btn-text:focus
+{
+border: none;
+background-color: rgba(103, 80, 164,0.12);
+color: #6750A4;
+
+}
+.btn-text:active
+{
+background-color: rgba(103, 80, 164,0.38);
+color: #6750A4;
+
+}
+.btn-text:disabled
+{
+color: rgba(28, 27, 31,0.38);
+}
+
+
+.btn-filled:hover
+{
+background-color: rgba(103, 80, 164,0.38);
+color: black;
+}
+.btn-filled:focus
+{
+background-color: rgba(255, 255, 255,0.38);
+color: #FFFFFF;
+}
+.btn-filled:active
+{
+background-color: rgba(28, 27, 31,0.12);
+color: #FFFFFF;
+}
+.btn-filled:disabled
+{
+background-color: rgba(28, 27, 31,0.12);
+color : rgba(28, 27, 31,0.38);
+}
+
+
+.btn-filled-tonal:hover
+{
+background-color: rgba(30, 25, 43,0.1);
+color: #1E192B;
+}
+.btn-filled-tonal:focus
+{
+background-color: rgba(30, 25, 43,0.1);
+color: #1E192B;
+}
+.btn-filled-tonal:active
+{
+background-color: rgba(30, 25, 43,0.1);
+color: #1E192B;
+}
+.btn-filled-tonal:disabled
+{
+background-color: rgba(28, 27, 31,0.12);
+color: rgba(28, 27, 31,0.12);
+}
